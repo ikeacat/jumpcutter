@@ -201,4 +201,5 @@ command = "ffmpeg -framerate "+str(frameRate)+" -i "+TEMP_FOLDER+"/newFrame%06d.
 subprocess.call(command, shell=True)
 
 deletePath(TEMP_FOLDER)
-
+if(URL != None):
+    deletePath(%s, % newname)
